@@ -1,0 +1,25 @@
+{
+  "name": "cypress-fagron-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oileans/cypress-fagron-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/oileans/cypress-fagron-api/issues"
+  },
+  "homepage": "https://github.com/oileans/cypress-fagron-api#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^10.2.0",
+    "cypress": "^15.9.0"
+  }
+}
