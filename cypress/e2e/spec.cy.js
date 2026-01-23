@@ -1,7 +1,7 @@
 describe('API - Cadastro de Usuário', () => {
 
   it('POST - Criação de usuário', () => {
-    const email = `fagron_${Date.now()}@teste.com.br`;
+    const email = 'fagron_${Date.now()}@teste.com.br';
 
     cy.serviceCriarUsuario(
       'Fagron Santos',
@@ -16,7 +16,7 @@ describe('API - Cadastro de Usuário', () => {
   });
 
   it('POST - Tentativa de cadastro duplicado', () => {
-    const email = `duplicado_${Date.now()}@teste.com.br`;
+    const email = 'duplicado_${Date.now()}@teste.com.br';
 
     cy.serviceCriarUsuario('Teste Dup', email, '123456', 'true');
 
